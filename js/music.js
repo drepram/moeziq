@@ -5,7 +5,7 @@
 'use strict';
 
 $(document).ready(function() {
-    var lastfmURL = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=drepram&api_key=dcedd6c25e0a9aa92bdaf613cc113efe&limit=18&format=json';
+    var lastfmURL = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=drepram&api_key=dcedd6c25e0a9aa92bdaf613cc113efe&limit=17&format=json';
     $.getJSON(lastfmURL, function(res) {
         var container = $("#gamesContainer");
 
